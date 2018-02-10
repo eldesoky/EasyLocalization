@@ -1,0 +1,6 @@
+framework module EasyLocalization {
+  umbrella header "EasyLocalization-umbrella.h"
+
+  export *
+  module * { export * }
+}

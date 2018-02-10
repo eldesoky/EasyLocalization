@@ -1,0 +1,16 @@
+PODS:
+  - EasyLocalization (0.1.0)
+
+DEPENDENCIES:
+  - EasyLocalization (from `../`)
+
+EXTERNAL SOURCES:
+  EasyLocalization:
+    :path: ../
+
+SPEC CHECKSUMS:
+  EasyLocalization: a769faa396e89c73d076c73dee6a15b5c7ab5ffa
+
+PODFILE CHECKSUM: 79f1c3e6ae193814ee88731e40d9429c53b4d434
+
+COCOAPODS: 1.3.1

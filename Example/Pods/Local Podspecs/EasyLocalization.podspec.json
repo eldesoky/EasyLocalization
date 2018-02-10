@@ -1,0 +1,22 @@
+{
+  "name": "EasyLocalization",
+  "version": "0.1.0",
+  "summary": "A short description of EasyLocalization.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/a.desoky@intcore.net/EasyLocalization",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "a.desoky@intcore.net": "a.desoky@intcore.net"
+  },
+  "source": {
+    "git": "https://github.com/a.desoky@intcore.net/EasyLocalization.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "EasyLocalization/Classes/**/*"
+}
