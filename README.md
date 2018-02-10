@@ -56,10 +56,10 @@ EasyLocalization.config(
     // if you need to change all views direction you can use this
     
     if EasyLocalization.getLanguage() == .ar {
-        // all view direction right to left
+        // all views direction right to left
         UIView.appearance().semanticContentAttribute = .forceRightToLeft
     }else{
-        // all view direction left to right
+        // all views direction left to right
         UIView.appearance().semanticContentAttribute = .forceLeftToRight
     }
 
