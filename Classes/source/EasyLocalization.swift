@@ -35,7 +35,8 @@ public class EasyLocalization {
     }
     
     public class func getLanguage() -> locale {
-        return localeArr.index(where: {$0 == language}
+        let index =  UserDefaults.standard.integer(forKey: "EasyLocalizationlanguage")
+        return localeArr[index]
     }
 }
 
