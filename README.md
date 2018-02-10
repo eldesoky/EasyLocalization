@@ -65,6 +65,12 @@ EasyLocalization.setLanguage(.ar)
 ```
 EasyLocalization.getLanguage()
 ```
+#usage in controllers
+
+```
+title = "test navigation title".locale
+```
+
 #usage in storyboard
 
 UIButton title
