@@ -20,7 +20,6 @@ EasyLocalization is available through [CocoaPods](http://cocoapods.org). To inst
 it, simply add the following line to your Podfile:
 
 ```ruby
-    pod repo update
     pod 'EasyLocalization'
 ```
 Open your command line and go to your project path and add the following lines
