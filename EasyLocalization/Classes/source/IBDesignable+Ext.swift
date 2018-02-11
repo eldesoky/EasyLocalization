@@ -7,27 +7,32 @@
 
 import Foundation
 
+// MARK:- local extention for language
 public extension String{
     var locale: String {
         get {
-            
-            for (key,value) in langs {
-                if(language == key) , value[self] != nil{
+            // get value from dictionary
+            for (key,value) in langs{
+                if value[self] != nil  , (language == key) {
                     return value[self]!
                 }
             }
+            // return final value from dictionary
             return "lang.\(self)"
         }
         
     }
 }
 
+// MARK:- UILabel localize Key extention for language in story board
 
 @IBDesignable public extension UILabel {
-    
     @IBInspectable public var localizeKey: String? {
         set {
-            self.text = newValue?.locale
+            // set new value from dictionary
+            DispatchQueue.main.async{
+                self.text = newValue?.locale
+            }
         }
         get {
             return self.text
@@ -35,11 +40,16 @@ public extension String{
     }
 }
 
+// MARK:- UIButton localize Key extention for language in story board
+
 @IBDesignable public extension UIButton {
     
     @IBInspectable public var localizeKey: String? {
         set {
-            self.setTitle(newValue?.locale, for: .normal)
+            // set new value from dictionary
+            DispatchQueue.main.async{
+                self.setTitle(newValue?.locale, for: .normal)
+            }
         }
         get {
             return self.titleLabel?.text
@@ -47,11 +57,16 @@ public extension String{
     }
 }
 
+// MARK:- UITextView localize Key extention for language in story board
+
 @IBDesignable public extension UITextView {
     
     @IBInspectable public var localizeKey: String? {
         set {
-            self.text = newValue?.locale
+            // set new value from dictionary
+            DispatchQueue.main.async{
+                self.text = newValue?.locale
+            }
         }
         get {
             return self.text
@@ -59,10 +74,15 @@ public extension String{
     }
 }
 
+// MARK:- UITextField localize Key extention for language in story board
+
 @IBDesignable public extension UITextField {
     @IBInspectable public var localizeKey: String? {
         set {
-            self.placeholder = newValue?.locale
+            // set new value from dictionary
+            DispatchQueue.main.async{
+                self.placeholder = newValue?.locale
+            }
         }
         get {
             return self.placeholder
@@ -70,11 +90,16 @@ public extension String{
     }
 }
 
+// MARK:- UINavigationItem localize Key extention for language in story board
+
 @IBDesignable public extension UINavigationItem {
     
     @IBInspectable public var localizeKey: String? {
         set {
-            self.title = newValue?.locale
+            // set new value from dictionary
+            DispatchQueue.main.async{
+                self.title = newValue?.locale
+            }
         }
         get {
             return self.title
