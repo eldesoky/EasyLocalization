@@ -10,6 +10,9 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+* xcode 9.x
+* swift 3.x
+* swift 4.0
 
 ## Installation
 
@@ -17,6 +20,7 @@ EasyLocalization is available through [CocoaPods](http://cocoapods.org). To inst
 it, simply add the following line to your Podfile:
 
 ```ruby
+    pod repo update
     pod 'EasyLocalization'
 ```
 
@@ -24,7 +28,7 @@ it, simply add the following line to your Podfile:
 
 #Make dictionary for every language with
 
-```
+```swift
 var arabicDic = [
     "test navigation title":"تجربة عنوان",
     "test button":"تجربة زر",
@@ -43,7 +47,7 @@ var englishDic = [
 ```
 #In AppDelegate.swift, just import EasyLocalization framework and make configration.
 
-```
+```swift
 
 EasyLocalization.config(
                         locale: .en,
@@ -67,18 +71,18 @@ EasyLocalization.config(
 
 #Change your language
 
-```
+```swift
 EasyLocalization.setLanguage(.ar)
 ```
 
 #Get your language
 
-```
+```swift
 EasyLocalization.getLanguage()
 ```
 #usage in controllers
 
-```
+```swift
 title = "test navigation title".locale
 ```
 
@@ -106,7 +110,7 @@ UINavigationItem title
 
 
 list of languages keys
-```
+```swift
 [
     .en,
     .fr,
