@@ -23,7 +23,11 @@ it, simply add the following line to your Podfile:
     pod repo update
     pod 'EasyLocalization'
 ```
-
+Open your command line and go to your project path and add the following lines
+```ruby
+pod repo update
+pod install
+```
 ## Usage
 
 #Make dictionary for every language with
