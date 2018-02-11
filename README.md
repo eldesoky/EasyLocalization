@@ -7,7 +7,7 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+To run the example project, clone the repo, and run `pod repo update` then run `pod install` from the Example directory first.
 
 ## Requirements
 * xcode 9.x
@@ -22,11 +22,7 @@ it, simply add the following line to your Podfile:
 ```ruby
     pod 'EasyLocalization'
 ```
-Open your command line and go to your project path and add the following lines
-```ruby
-pod repo update
-pod install
-```
+
 ## Usage
 
 #Make dictionary for every language with
