@@ -34,7 +34,7 @@ public class EasyLocalization {
             // all views direction left to right
             UIView.appearance().semanticContentAttribute = .forceLeftToRight
         }
-        syncLang()
+//        syncLang()
     }
     
     //MARK:- set new language dictionary
@@ -53,7 +53,7 @@ public class EasyLocalization {
             // all views direction left to right
             UIView.appearance().semanticContentAttribute = .forceLeftToRight
         }
-        syncLang()
+//        syncLang()
     }
     
     //MARK:- get last updated language
@@ -63,12 +63,12 @@ public class EasyLocalization {
     }
     
     //MARK:- sync apple Languages
-    public class func syncLang() {
-        let index =  UserDefaults.standard.integer(forKey: "EasyLocalizationlanguage")
-        UserDefaults.standard.set([localeArrStrings[index]], forKey: "AppleLanguages")
-        UserDefaults.standard.synchronize()
-    }
- 
+//    public class func syncLang() {
+//        let index =  UserDefaults.standard.integer(forKey: "EasyLocalizationlanguage")
+//        UserDefaults.standard.set([localeArrStrings[index]], forKey: "AppleLanguages")
+//        UserDefaults.standard.synchronize()
+//    }
+//
    
 }
 
