@@ -27,7 +27,7 @@ public class EasyLocalization {
         language = language == nil ? locale : language
         UserDefaults.standard.set(localeArr.index(where: {$0 == language}), forKey: "EasyLocalizationlanguage")
         langs = languageDictionary
-        syncLang()
+        syncDirection()
     }
     
     //MARK:- set new language dictionary
@@ -39,7 +39,7 @@ public class EasyLocalization {
     public class func setLanguage(_ locale:locale) {
         language = locale
         UserDefaults.standard.set(localeArr.index(where: {$0 == language}), forKey: "EasyLocalizationlanguage")
-        syncLang()
+        syncDirection()
     }
     
     //MARK:- get last updated language
@@ -48,7 +48,7 @@ public class EasyLocalization {
         return localeArr[index]
     }
     
-    public class func syncLang(){
+    public class func syncDirection(){
         if rtlLang.contains(language ?? .en){
             // all views direction right to left
             if #available(iOS 9.0, *) {
