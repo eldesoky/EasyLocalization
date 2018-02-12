@@ -29,10 +29,14 @@ public class EasyLocalization {
         langs = languageDictionary
         if rtlLang.contains(language ?? .en){
             // all views direction right to left
-            UIView.appearance().semanticContentAttribute = .forceRightToLeft
+            if #available(iOS 9.0, *) {
+                UIView.appearance().semanticContentAttribute = .forceRightToLeft
+            }
         }else{
             // all views direction left to right
-            UIView.appearance().semanticContentAttribute = .forceLeftToRight
+            if #available(iOS 9.0, *) {
+                UIView.appearance().semanticContentAttribute = .forceLeftToRight
+            }
         }
     }
     
@@ -48,10 +52,14 @@ public class EasyLocalization {
         UserDefaults.standard.set(localeArr.index(where: {$0 == language}), forKey: "EasyLocalizationlanguage")
         if rtlLang.contains(language ?? .en){
             // all views direction right to left
-            UIView.appearance().semanticContentAttribute = .forceRightToLeft
+            if #available(iOS 9.0, *) {
+                UIView.appearance().semanticContentAttribute = .forceRightToLeft
+            }
         }else{
             // all views direction left to right
-            UIView.appearance().semanticContentAttribute = .forceLeftToRight
+            if #available(iOS 9.0, *) {
+                UIView.appearance().semanticContentAttribute = .forceLeftToRight
+            }
         }
     }
     
