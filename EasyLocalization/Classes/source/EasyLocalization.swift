@@ -13,14 +13,14 @@ public var rtlLang:[locale] = [.ar,.hi,.tr]
 
 public class EasyLocalization {
     
-
+    
     init() {
         let index =  UserDefaults.standard.integer(forKey: "EasyLocalizationlanguage")
         language = localeArr[index]
     }
     
     //MARK:- set language configration
-
+    
     public class func config( locale:locale? = nil , languageDictionary:[locale:[String:String]]) {
         let index =  UserDefaults.standard.integer(forKey: "EasyLocalizationlanguage")
         language = localeArr[index]
