@@ -36,6 +36,7 @@ public class EasyLocalization {
         }
     }
     
+    
     //MARK:- set new language dictionary
     public class func setLanguageDictionary(_ locale:locale ,_ dictionary:[String:String]) {
         langs[locale] = dictionary
@@ -59,5 +60,6 @@ public class EasyLocalization {
         let index =  UserDefaults.standard.integer(forKey: "EasyLocalizationlanguage")
         return localeArr[index]
     }
-    }
+    
+}
 
