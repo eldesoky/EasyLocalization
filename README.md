@@ -25,6 +25,8 @@ it, simply add the following line to your Podfile:
 
 ## Usage
 
+#now rtl direction is supported
+
 #Make dictionary for every language with
 
 ```swift
@@ -56,15 +58,7 @@ EasyLocalization.config(
                         ]
                     )
                     
-    // if you need to change all views direction you can use this
-    
-    if EasyLocalization.getLanguage() == .ar {
-        // all views direction right to left
-        UIView.appearance().semanticContentAttribute = .forceRightToLeft
-    }else{
-        // all views direction left to right
-        UIView.appearance().semanticContentAttribute = .forceLeftToRight
-    }
+ 
 
 ```
 
