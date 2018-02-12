@@ -63,7 +63,7 @@ public class EasyLocalization {
     }
     
     //MARK:- sync apple Languages
-    func syncLang() {
+    public class func syncLang() {
         let index =  UserDefaults.standard.integer(forKey: "EasyLocalizationlanguage")
         UserDefaults.standard.set([localeArrStrings[index]], forKey: "AppleLanguages")
         UserDefaults.standard.synchronize()
