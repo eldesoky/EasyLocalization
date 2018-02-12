@@ -30,8 +30,6 @@ public class EasyLocalization {
         syncLang()
     }
     
-    
-    
     //MARK:- set new language dictionary
     public class func setLanguageDictionary(_ locale:locale ,_ dictionary:[String:String]) {
         langs[locale] = dictionary
