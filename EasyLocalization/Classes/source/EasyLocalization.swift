@@ -9,10 +9,10 @@ import Foundation
 
 public var language:locale?
 public var langs:[locale:[String:String]] = [:]
+public var rtlLang:[locale] = [.ar,.hi,.tr]
 
 public class EasyLocalization {
     
-    static var rtlLang:[locale] = [.ar,.hi,.tr]
 
     init() {
         let index =  UserDefaults.standard.integer(forKey: "EasyLocalizationlanguage")

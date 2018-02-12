@@ -32,6 +32,7 @@ public extension String{
             // set new value from dictionary
             DispatchQueue.main.async{
                 self.text = newValue?.locale
+                self.textAlignment = rtlLang.contains(language ?? .en) ? .right : .left
             }
         }
         get {
@@ -66,6 +67,7 @@ public extension String{
             // set new value from dictionary
             DispatchQueue.main.async{
                 self.text = newValue?.locale
+                self.textAlignment = rtlLang.contains(language ?? .en) ? .right : .left
             }
         }
         get {
@@ -82,6 +84,7 @@ public extension String{
             // set new value from dictionary
             DispatchQueue.main.async{
                 self.placeholder = newValue?.locale
+                self.textAlignment = rtlLang.contains(language ?? .en) ? .right : .left
             }
         }
         get {

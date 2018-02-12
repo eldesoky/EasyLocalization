@@ -12,9 +12,9 @@
 		2785F1CB3FFB010D835F111E53499552 /* Pods-EasyLocalization_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7967F2D2E65691F5170EEEAD219A20 /* Pods-EasyLocalization_Tests-dummy.m */; };
 		7503417A844456079A0CA85761063CF1 /* EasyLocalization-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A0764C8A3428637639E82AFB7935AC /* EasyLocalization-dummy.m */; };
 		99BE3A1B74F9E813998A7EE6D7BA4D63 /* Pods-EasyLocalization_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C641312E2F614A5076088B06ED391B1 /* Pods-EasyLocalization_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC52D9552031B07A00307297 /* LangList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC52D9522031B07A00307297 /* LangList.swift */; };
-		BC52D9562031B07A00307297 /* EasyLocalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC52D9532031B07A00307297 /* EasyLocalization.swift */; };
-		BC52D9572031B07A00307297 /* IBDesignable+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC52D9542031B07A00307297 /* IBDesignable+Ext.swift */; };
+		BC52D95B2031B58F00307297 /* LangList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC52D9582031B58F00307297 /* LangList.swift */; };
+		BC52D95C2031B58F00307297 /* EasyLocalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC52D9592031B58F00307297 /* EasyLocalization.swift */; };
+		BC52D95D2031B58F00307297 /* IBDesignable+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC52D95A2031B58F00307297 /* IBDesignable+Ext.swift */; };
 		D27D93C99E896958B4B739A1184C1ADB /* Pods-EasyLocalization_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 544971005CF8306F0B730502DB2E4758 /* Pods-EasyLocalization_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8985862EE4C66615702D794833A1CF1 /* Pods-EasyLocalization_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A85AEAE1F01C23BC84E7F30B2C9D63 /* Pods-EasyLocalization_Example-dummy.m */; };
 		E064D6C2CA0AE8C0216C73D34ED4C2FF /* EasyLocalization-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 855AD27CFF0E629176B98E00E098595D /* EasyLocalization-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -60,9 +60,9 @@
 		868F8D1A9F8CF559CEEE2DE6ACBDEBC9 /* Pods-EasyLocalization_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EasyLocalization_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		903CC8788F2F874471BA55A156A61B1E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BC52D9522031B07A00307297 /* LangList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LangList.swift; path = "../../../../../../../../../Users/abdelrahman/Desktop/EasyLocalization-0.1.1/EasyLocalization/Classes/source/LangList.swift"; sourceTree = "<group>"; };
-		BC52D9532031B07A00307297 /* EasyLocalization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EasyLocalization.swift; path = "../../../../../../../../../Users/abdelrahman/Desktop/EasyLocalization-0.1.1/EasyLocalization/Classes/source/EasyLocalization.swift"; sourceTree = "<group>"; };
-		BC52D9542031B07A00307297 /* IBDesignable+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "IBDesignable+Ext.swift"; path = "../../../../../../../../../Users/abdelrahman/Desktop/EasyLocalization-0.1.1/EasyLocalization/Classes/source/IBDesignable+Ext.swift"; sourceTree = "<group>"; };
+		BC52D9582031B58F00307297 /* LangList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LangList.swift; sourceTree = "<group>"; };
+		BC52D9592031B58F00307297 /* EasyLocalization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyLocalization.swift; sourceTree = "<group>"; };
+		BC52D95A2031B58F00307297 /* IBDesignable+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IBDesignable+Ext.swift"; sourceTree = "<group>"; };
 		BCCEC525202F4612001558F4 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		C88908380BE89DD7854708511881413A /* Pods-EasyLocalization_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EasyLocalization_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F57D375F3599C65F12FB2908B20D81C7 /* Pods_EasyLocalization_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyLocalization_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -216,9 +216,9 @@
 		BCCEC526202F4612001558F4 /* source */ = {
 			isa = PBXGroup;
 			children = (
-				BC52D9532031B07A00307297 /* EasyLocalization.swift */,
-				BC52D9542031B07A00307297 /* IBDesignable+Ext.swift */,
-				BC52D9522031B07A00307297 /* LangList.swift */,
+				BC52D9592031B58F00307297 /* EasyLocalization.swift */,
+				BC52D95A2031B58F00307297 /* IBDesignable+Ext.swift */,
+				BC52D9582031B58F00307297 /* LangList.swift */,
 			);
 			path = source;
 			sourceTree = "<group>";
@@ -369,10 +369,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC52D9562031B07A00307297 /* EasyLocalization.swift in Sources */,
+				BC52D95C2031B58F00307297 /* EasyLocalization.swift in Sources */,
 				7503417A844456079A0CA85761063CF1 /* EasyLocalization-dummy.m in Sources */,
-				BC52D9572031B07A00307297 /* IBDesignable+Ext.swift in Sources */,
-				BC52D9552031B07A00307297 /* LangList.swift in Sources */,
+				BC52D95D2031B58F00307297 /* IBDesignable+Ext.swift in Sources */,
+				BC52D95B2031B58F00307297 /* LangList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
